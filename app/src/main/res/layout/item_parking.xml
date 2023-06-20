@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textVehicleNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/all_rounded"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/poppins_semibold"
+        android:paddingHorizontal="8dp"
+        android:gravity="center_vertical"
+        android:paddingVertical="4dp"
+        android:text="B5105AJK"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Rp50.000"
+        android:fontFamily="@font/poppins_semibold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="8dp"
+        android:textColor="@color/redSecondary"/>
+
+    <TextView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textVehicleNumber"
+        android:id="@+id/textCheckInTimeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_in_time"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/gray_text"/>
+
+    <TextView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textCheckInTimeTitle"
+        android:id="@+id/textCheckInTime"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="@string/check_in_time"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/black_text"/>
+
+    <TextView
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toEndOf="@id/textCheckInTime"
+        app:layout_constraintTop_toBottomOf="@id/textVehicleNumber"
+        android:id="@+id/textCheckOutTimeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_out_time"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/gray_text"/>
+
+    <TextView
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toBottomOf="@id/textCheckOutTimeTitle"
+        app:layout_constraintStart_toEndOf="@id/textCheckInTime"
+        android:id="@+id/textCheckOutTime"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="@string/check_in_time"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/black_text"/>
+
+    <TextView
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textVehicleNumber"
+        android:id="@+id/textVehicleTypeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vehicle_type"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/gray_text"/>
+
+    <TextView
+        android:layout_marginEnd="16dp"
+        app:layout_constraintTop_toBottomOf="@id/textVehicleTypeTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/textVehicleType"
+        android:gravity="end"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="@string/check_in_time"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/black_text"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

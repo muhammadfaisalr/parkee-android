@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Parkee</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_data">Tambah Data</string>
+    <string name="vehicle_number">Plat Nomor</string>
+    <string name="add">Tambah</string>
+    <string name="vehicle_type_car">[M] Mobil</string>
+    <string name="vehicle_type_bike">[O] Motor</string>
+    <string name="vehicle_type_truck">[T] Truk</string>
+    <string name="vehicle_type_bus">[B] Bus</string>
+    <string name="vehicle_type">Jenis Kendaraan</string>
+    <string name="ask_check_out_parking">Keluar Parkir?</string>
+    <string name="subtitle_ask_check_out_parking">Proses dengan klik button di bawah ini</string>
+    <string name="check_out_process">Proses Keluar</string>
+    <string name="check_in_time">Waktu Masuk</string>
+    <string name="check_out_time">Waktu Keluar</string>
+    <string name="search">Cari Data</string>
+    <string name="search_subtitle">Cari data sebelum melakukan proses pembayaran</string>
+    <string name="duration">Durasi Parkir</string>
+    <string name="base_price">Harga Dasar</string>
+    <string name="total_billing">Total Tagihan</string>
+    <string name="payment_method">Metode Pembayaran</string>
+    <string name="payment_method_cash">Tunai</string>
+    <string name="payment_method_qris">QRIS</string>
+    <string name="cancel">Batal</string>
+    <string name="pay">Bayar</string>
+</resources>
